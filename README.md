@@ -54,8 +54,8 @@ You can: - Preview the stego image\
 
 ### 🔹 3. Extract From Stego
 
-Upload a stego image and automatically extract: - 🟦 The recovered cover
-image\
+Upload a stego image and automatically extract:
+- 🟦 The recovered cover image
 - 🟨 The extracted secret image
 
 Both reconstructed images can be downloaded.
