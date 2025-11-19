@@ -22,9 +22,10 @@ Additionally, the app includes a **Bit-Plane Viewer**, allowing you to
 visually inspect all 8 bit-layers of an image and better understand how
 digital images store information.
 
-This tool is ideal for: - 🧪 Students learning steganography\
-- 🔍 Security & forensics demos\
-- 🎨 Curiosity about how images store data\
+This tool is ideal for:
+- 🧪 Students learning steganography
+- 🔍 Security & forensics demos
+- 🎨 Curiosity about how images store data
 - 🧠 Research experiments
 
 ------------------------------------------------------------------------
@@ -41,13 +42,16 @@ affects the appearance.
 
 ### 🔹 2. Hide Secret Image
 
-Upload: - A **Cover Image** - A **Secret Image**
+Upload:
+- A **Cover Image**
+- A **Secret Image**
 
 The app hides the secret inside the cover using the **red-channel LSB**,
 producing a new **Stego Image**.
 
-You can: - Preview the stego image\
-- Download it\
+You can:
+- Preview the stego image
+- Download it
 - View its bit-planes
 
 ------------------------------------------------------------------------
@@ -89,7 +93,7 @@ pip install -r requirements.txt
 Run the app:
 
 ``` bash
-streamlit run app.py
+streamlit run src/streamlit_app.py
 ```
 
 ------------------------------------------------------------------------
